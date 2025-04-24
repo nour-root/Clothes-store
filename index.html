@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./node_modules/@flaticon/flaticon-uicons/css/all/all.css">
+  <link rel="stylesheet" href="./src/style.css">
+  <title>Ecommerce Website</title>
+</head>
+
+<body class="relative  m-0 p-0 box-border bg-body font-family-body-lato overflow-x-hidden">
+  <!--========= HEADER ==========-->
+  <header>
+    <div id="header-conten" class="md:px-16 px-6 py-8">
+      <nav class="flex justify-between items-center">
+        <div class="flex items-center space-x-12">
+          <a id="logo" class="block -mt-3" href="index.html"><img src="/assets/icons/logo.svg" width="90"
+              alt="logo"></a>
+          <ul class="font-600 text-normal-size flex items-center space-x-8 max-md:hidden *:hover:text-first">
+            <li><a href="./index.html" id="active" class="Active">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#contact_us">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="flex space-x-8 items-center" id="icons">
+          <a href="./wishlist.html" class="relative">
+            <div
+              class="num-whish-order text-white absolute flex justify-center -right-4 -top-4 w-full h-full bg-first rounded-full">
+            </div><img src="/assets/icons/icon-heart.svg" width="25" alt="">
+          </a>
+          <a href="./cart.html" class="relative">
+            <div
+              class="num-orders text-white absolute flex justify-center -right-4 -top-4 w-full h-full bg-first rounded-full">
+            </div>
+            <img src="/assets/icons/icon-cart.svg" width="25" alt="">
+          </a>
+          <button type="button" class="cursor-pointer" onclick="show_modal(modal)"><img class="lg:hidden cart"
+              src="/assets/icons/menu-burger.svg" width="20" alt=""></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!--========== HOME ===============-->
+    <section id="home" class="md:px-16 px-6 py-8">
+      <div class="grid grid-cols-2 items-center gap-20 max-md:grid-cols-1">
+        <div id="subtitle" class="flex flex-col">
+          <span class="block first-letter:capitalize text-normal-size font-600 text-text tracking-wide">hot
+            promotions</span>
+          <h1 class="text-h1-size text-title font-600">Fashion Trending</h1>
+          <h2 class="text-big-size text-first font-700">Great Collection</h2>
+          <span class="block first-letter:capitalize text-small-size font-600 text-text-light">save your money with
+            coupons &
+            up to 20%
+            off</span>
+          <a href="shop.html"
+            class="bg-first border border-first w-fit mt-4 text-white px-6 py-2 rounded-md transition-all duration-200 hover:bg-white hover:text-first">
+            Shop
+            Now
+          </a>
+        </div>
+        <div id="image-home"><img src="/assets/images/home-img.png" alt=""></div>
+      </div>
+    </section>
+    <!--========== CATEGORY ===========-->
+    <section id="category" class="md:px-16 px-6 py-8 space-y-16">
+      <h3 class="text-h2-size capitalize"><span class="text-first">populra</span> categories</h3>
+      <div id="category-container">
+        <div class="embla flex flex-col-reverse">
+          <div class="embla__container">
+            <div class="embla__slide flex flex-wrap py-4 space-y-4 border border-text-light rounded-xl">
+              <div id="img-category" class="w-full basis-[220px]"><img src="/assets/img/category-8.jpg"
+                  class="rounded-xl mx-2" alt="">
+              </div>
+              <p class="text-text font-600 w-full text-center">Hats</p>
+            </div>
+          </div>
+          <div class="embla__controls mb-4 ml-auto">
+            <div class="embla__buttons">
+              <button class="embla__button embla__button--prev" type="button">
+                <svg class="embla__button__svg" viewBox="0 0 532 532">
+                  <path fill="currentColor"
+                    d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z">
+                  </path>
+                </svg>
+              </button>
+
+              <button class="embla__button embla__button--next" type="button">
+                <svg class="embla__button__svg" viewBox="0 0 532 532">
+                  <path fill="currentColor"
+                    d="M176.34 520.646c-13.793 13.805-36.208 13.805-50.001 0-13.785-13.804-13.785-36.238 0-50.034L330.78 266 126.34 61.391c-13.785-13.805-13.785-36.239 0-50.044 13.793-13.796 36.208-13.796 50.002 0 22.928 22.947 206.395 206.507 229.332 229.454a35.065 35.065 0 0 1 10.326 25.126c0 9.2-3.393 18.26-10.326 25.2-45.865 45.901-206.404 206.564-229.332 229.52Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--========== PRODUCTS ===========-->
+    <section id="products-content" class="md:px-16 px-6 py-8 space-y-16">
+      <form action="" class="gap-4 flex flex-wrap">
+        <button type="button" value="feature"
+          class="btn-p first-letter:capitalize  text-title bg-container Active-btn py-3 px-8 font-600 w-fit">featuer</button>
+        <button type="button" value="popular"
+          class="btn-p first-letter:capitalize text-title bg-container py-3 px-8 font-600 w-fit">popular</button>
+        <button type="button" value="new added"
+          class="btn-p first-letter:capitalize text-title bg-container py-3 px-8 font-600 w-fit">new
+          added</button>
+      </form>
+      <div id="products" class="grid md:grid-cols-3 lg:grid-cols-4 gap-12">
+        <a href="/details.html" class="block">
+          <div class="border-[1px] border-border-alt rounded-2xl p-4 flex flex-col space-y-2 ">
+            <div id="p-img" class="relative rounded-2xl overflow-hidden"><img src="/assets/img/product-1-1.jpg"
+                class="rounded-2xl transform transition-all duration-500 " alt="">
+            </div>
+            <div class="space-x-4"><a href=""><i class="fi fi-rr-eye" aria-label="Quick View"></i></a>
+              <a href="" aria-label="Add To Wislist"><i class="fi fi-rs-heart"></i></a>
+              <a href="" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+            </div>
+            <div class="info flex flex-col gap-1 relative">
+              <span class="ml-1 text-text-light first-letter:capitalize text-smaller-size">clothing</span>
+              <p class="capitalize text-large-size font-600 tracking-wide">colorful pattren shirts</p>
+              <span class="block">
+                <i class="fi fi-rs-star text-yellow-300 text-small-size"></i>
+                <i class="fi fi-rs-star text-yellow-300 text-small-size"></i>
+                <i class="fi fi-rs-star text-yellow-300 text-small-size"></i>
+                <i class="fi fi-rs-star text-yellow-300 text-small-size"></i>
+                <i class="fi fi-rs-star text-yellow-300 text-small-size"></i>
+              </span>
+              <p class="text-first font-600">$200</p>
+              <button type="submit" value="" id=""
+                class="absolute right-0 bottom-2 cursor-pointer bg-first-alt w-fit px-3 py-2 rounded-full ml-auto">
+                <i class="fi fi-rs-shopping-bag-add text-text h-1"></i>
+              </button>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!--========== DEALS  ==============-->
+    <section id="deals" class="md:px-16 px-6 py-8 space-y-16 grid md:grid-cols-2 gap-4 overflow-hidden">
+      <div class="deal-1 p-12 space-y-6 flex flex-col bg-[url(/assets/images/deals-1.jpg)]">
+        <div>
+          <h3 class="text-h3-size text-first">Deals of the day</h3>
+          <span class="text-text-light text-small-size">Limited qauntities</span>
+        </div>
+        <p class="text-text text-large-size capitalize tracking-wider max-w-54">summer collection new moderen design</p>
+        <span class="text-red-500 font-600 block">$139.00 <del class="text-text-light ml-1">160.00</del></span>
+        <div class="space-y-2">
+          <span class="text-text block capitalize">hurry up! offer end in:</span>
+          <div class="space-x-2 flex items-center  text-center">
+            <div class="bg-first w-fit h-fit text-white rounded-sm  px-4 py-2 font-500 days">02</div>:
+            <div class="bg-first w-fit h-fit ml-2 rounded-sm text-white  px-4 py-2 font-500">
+              22
+            </div>:
+            <div class="bg-first w-fit h-fit ml-2 rounded-sm text-white  px-4 py-2 font-500 ">
+              57
+            </div>:
+            <div class="bg-first w-fit h-fit ml-2 rounded-sm text-white  px-4 py-2 font-500 ">24</div>
+          </div>
+          <div class="flex space-x-[2.2rem] w-fit ml-2">
+            <div class="text-text">Days</div>
+            <div class="text-text">Hours</div>
+            <div class="text-text">Mins</div>
+            <div class="text-text">sec</div>
+          </div>
+        </div>
+        <button type="button"
+          class="cursor-pointer hover:text-white hover:bg-first w-fit border-2 border-first text-first px-4 py-2 rounded-sm">Shop
+          Now</button>
+      </div>
+      <div class="deal-2 p-12 space-y-6 flex flex-col h-[485px] bg-[url(/assets/images/deals-2.png)]">
+        <div>
+          <h3 class="text-h3-size text-first font-500">Women clothing</h3>
+          <span class="text-text-light text-small-size">Shirts & Bags</span>
+        </div>
+        <p class="text-text text-large-size capitalize tracking-wider max-w-54">try somting new on vacation</p>
+        <span class="text-red-500 font-600 block">$178.00 <del class="text-text-light ml-1">256.00</del></span>
+        <div class="space-y-2">
+          <span class="text-text block capitalize">hurry up! offer end in:</span>
+          <div class="space-x-2 flex items-center  text-center">
+            <div class="bg-first w-fit h-fit text-white rounded-sm  px-4 py-2 font-500 days">02</div>:
+            <div class="bg-first w-fit h-fit ml-2 rounded-sm text-white  px-4 py-2 font-500">
+              22
+            </div>:
+            <div class="bg-first w-fit h-fit ml-2 rounded-sm text-white  px-4 py-2 font-500 ">
+              57
+            </div>:
+            <div class="bg-first w-fit h-fit ml-2 rounded-sm text-white  px-4 py-2 font-500 ">24</div>
+          </div>
+          <div class="flex space-x-[2.2rem] w-fit ml-2">
+            <div class="text-text">Days</div>
+            <div class="text-text">Hours</div>
+            <div class="text-text">Mins</div>
+            <div class="text-text">sec</div>
+          </div>
+        </div>
+        <button type="button"
+          class="cursor-pointer hover:text-white hover:bg-first w-fit border-2 border-first text-first px-4 py-2 rounded-sm">Shop
+          Now</button>
+      </div>
+    </section>
+    <!--========== NEW ARRIVAL ===========-->
+    <section id="new-arrival" class="relative z-10 md:px-16 px-6 py-8 space-y-16">
+      <h3 class="text-h2-size capitalize"><span class="text-first">New</span> Arrivals</h3>
+      <div id="products" class="swiper">
+        <!-- If we need navigation buttons -->
+        <div class="flex space-x-10 mb-4">
+          <div class="swiper-button-prev"><i class="fi fi-rr-angle-left"></i></div>
+          <div class="swiper-button-next"><i class="fi fi-rr-angle-right"></i></div>
+        </div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+        </div>
+      </div>
+    </section>
+    <!--========== SHOWCASE ===========-->
+    <section id="showcase" class="md:px-16 px-6 py-8 grid md:grid-cols-2 lg:grid-cols-4 gap-14">
+      <!-- <div class="space-y-8">
+        <div class="space-y-2">
+          <h4 class="text-h4-size capitalize">hot releases</h4>
+          <div
+            class="w-full relative rounded-4xl h-1 bg-container before:absolute before:content-[''] before:w-1/5 before:h-full before:bg-first before:rounded-4xl before:left-0 before:top-0">
+          </div>
+        </div>
+        <div class="flex flex-col space-y-8">
+          <a href="" class="flex justify-start space-x-4 items-center">
+            <img src="/assets/images/showcase-img-7.jpg" width="100" alt="">
+            <div id="details-showcase" class="space-y-2">
+              <p class="capitalize text-normal-size font-500 whitespace-nowrap overflow-ellipsis">floral
+                print casual
+                cotton dress</p>
+              <div class="flex space-x-2">
+                <span class="text-first font-600">$200</span>
+                <del class="text-text-light font-500">$240</del>
+              </div>
+            </div>
+          </a>
+          <a href="" class="flex justify-start  space-x-4">
+            <img src="/assets/images/showcase-img-7.jpg" width="100" alt="">
+            <div id="details-showcase" class="space-y-2 ">
+              <p class="capitalize text-normal-size overflow-ellipsis whitespace-nowrap overflow-hidden">floral print
+                casual cotton dresss
+              </p>
+              <div class="flex space-x-2">
+                <span class="text-first font-600">$200</span>
+                <del class="text-text-light font-500">$240</del>
+              </div>
+            </div>
+          </a>
+          <a href="" class="flex justify-start items-center  space-x-4">
+            <img src="/assets/images/showcase-img-7.jpg" width="100" alt="">
+            <div id="details-showcase" class="space-y-2">
+              <p class="capitalize text-normal-size whitespace-nowrap overflow-hidden overflow-ellipsis">floral print
+                casual cotton dress
+              </p>
+              <div class="flex space-x-2">
+                <span class="text-first font-600">$200</span>
+                <del class="text-text-light font-500">$240</del>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="space-y-8">
+        <div class="space-y-2">
+          <h4 class="text-h4-size capitalize">hot releases</h4>
+          <div
+            class="w-full relative rounded-4xl h-1 bg-container before:absolute before:content-[''] before:w-1/5 before:h-full before:bg-first before:rounded-4xl before:left-0 before:top-0">
+          </div>
+        </div>
+        <div class="flex flex-col space-y-8">
+          <a href="" class="flex justify-start space-x-4 items-center">
+            <img src="/assets/images/showcase-img-7.jpg" width="100" alt="">
+            <div id="details-showcase" class="space-y-2">
+              <p class="capitalize text-normal-size font-500 whitespace-nowrap overflow-ellipsis">floral
+                print casual
+                cotton dress</p>
+              <div class="flex space-x-2">
+                <span class="text-first font-600">$200</span>
+                <del class="text-text-light font-500">$240</del>
+              </div>
+            </div>
+          </a>
+          <a href="" class="flex justify-start  space-x-4">
+            <img src="/assets/images/showcase-img-7.jpg" width="100" alt="">
+            <div id="details-showcase" class="space-y-2">
+              <p class="capitalize text-normal-size whitespace-nowrap">floral print casual cotton dresss</p>
+              <div class="flex space-x-2">
+                <span class="text-first font-600">$200</span>
+                <del class="text-text-light font-500">$240</del>
+              </div>
+            </div>
+          </a>
+          <a href="" class="flex justify-start  space-x-4">
+            <img src="/assets/images/showcase-img-7.jpg" width="100" alt="">
+            <div id="details-showcase" class="space-y-2">
+              <p class="capitalize text-normal-size whitespace-nowrap">floral print casual cotton dress</p>
+              <div class="flex space-x-2">
+                <span class="text-first font-600">$200</span>
+                <del class="text-text-light font-500">$240</del>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div> -->
+    </section>
+    <!--========== NEWSLETTER ===========-->
+    <section
+      class="md:px-16 px-6 py-8 bg-[hsl(166,23%,74%)] flex items-center justify-between max-md:flex-col max-md:space-y-4">
+      <div class="flex items-center justify-between space-x-4 px-8">
+        <img src="/assets/icons/email.png" width="50" alt="">
+        <p class="text-large-size capitalize font-600 tracking-wide">Sing up to newsletter</p>
+      </div>
+      <p class="tracking-wide font-500">...and receive $25 coupon for first shopping</p>
+      <form action="" class="space-y-4 max-md:justify-center">
+        <input type="text" placeholder="enter your email"
+          class="bg-white px-8 py-2 w-[350px] capitalize focus:outline-0">
+        <button type="submit" class="capitalize text-white bg-black  px-8 py-2 -ml-1">subscribe</button>
+      </form>
+    </section>
+    <footer id="contact_us" class="md:px-16 px-6 py-8 space-y-12">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
+        <div class="flex flex-col space-y-6">
+          <div class="space-y-4">
+            <img src="/assets/icons/logo.svg" width="120" alt="">
+            <span class="text-text-light block capitalize tracking-wider text-normal-size">contact</span>
+            <div class="capitalize">Address: <span class="text-text">562 Wellington road, street 32,san
+                francisco</span></div>
+            <div class="capitalize">phone: <span class="text-text">+01 2222 365/(+91)01 2345 6789</span></div>
+            <div class="capitalize">Hours: <span class="text-text">10:00 - 18:00,Moon - sat</span></div>
+          </div>
+          <div class="text-text flex flex-col space-y-2"><span class="capitalize">follow me</span>
+            <div class="flex space-x-2">
+              <img src="/assets/icons/icon-facebook.svg" width="30" alt="">
+              <img src="/assets/icons/icon-instagram.svg" width="30" alt="">
+              <img src="/assets/icons/icon-twitter.svg" width="30" alt="">
+              <img src="/assets/icons/icon-youtube.svg" width="30" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-8">
+          <div class="space-y-2">
+            <h4 class="text-h4-size">Address</h4>
+            <ul class="text-text capitalize space-y-3">
+              <li>about</li>
+              <li>delivery information</li>
+              <li>privacy policy</li>
+              <li>tems & condition</li>
+              <li>contact</li>
+              <li>support center</li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-h4-size capitalize">My account</h4>
+            <ul class="text-text capitalize space-y-3">
+              <li>sing in</li>
+              <li>view cart</li>
+              <li>my wishlist</li>
+              <li>track my order</li>
+              <li>help</li>
+              <li>order</li>
+            </ul>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <p class="font-500 text-large-size capitalize">secured payment gateways</p>
+          <img src="/assets/images/payment-method.png" alt="">
+        </div>
+      </div>
+      <div class="flex justify-between items-center text-text-light capitalize">
+        <p>@ 2025 evara, all right reserved</p>
+        <p>designed by niran-root</p>
+      </div>
+    </footer>
+  </main>
+  <div id="modal"
+    class="fixed z-20 lg:hidden bg-white w-full h-full top-0 left-250 flex flex-col px-8 py-4 space-y-8 transition-all duration-300">
+    <div class="flex justify-between items-center">
+      <img src="/assets/icons/logo.svg" width="100" alt="">
+      <button type="button" class="mt-2 cursor-pointer" onclick="hid_modal(modal)"><i
+          class="fi fi-rr-cross-small text-3xl"></i></button>
+    </div>
+    <ul class="font-600 pl-2 text-large-size flex flex-col items-start space-y-8 space-x-8 *:hover:text-first">
+      <li><a href="#" id="active" class="">Home</a></li>
+      <li><a href="#products-content">Shop</a></li>
+      <li><a href="account.html">My Account</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</body>
+
+</html>

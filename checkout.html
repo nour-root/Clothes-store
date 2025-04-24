@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@flaticon/flaticon-uicons/css/all/all.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>checkout</title>
+</head>
+
+<body class="relative m-0 p-0 box-border bg-body font-family-body-lato overflow-x-hidden">
+    <header>
+        <div id="header-conten" class="md:px-16 px-6 py-8">
+            <nav class="flex justify-between items-center">
+                <div class="flex items-center space-x-12">
+                    <a id="logo" class="block -mt-3" href="index.html"><img src="/assets/icons/logo.svg" width="90"
+                            alt="logo"></a>
+                    <ul class="font-600 text-normal-size flex items-center space-x-8 max-md:hidden *:hover:text-first">
+                        <li><a href="./index.html" id="active" class="Active">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--======== BREADCRUMB ==========-->
+        <section id="breadcrumb" class="bg-container py-6 px-16">
+            <ul class="flex space-x-2 text-text font-500 capitalize">
+                <li><a href="shop.html" class="">shop</a></li>
+                <li><span class=""> > </span></li>
+                <li><a href="cart.html" class="">Cart</a></li>
+                <li><span class=""> > </span></li>
+                <li><a href="checkout.html" class="Active">Billing Information</a></li>
+            </ul>
+        </section>
+        <!--========  BILLING  ==========-->
+        <section class="py-6 px-16" id="checkoutForm">
+            <div class="grid max-sm:grid-cols-1 lg:grid-cols-2 gap-12">
+                <!--======== SEC 1  ========-->
+                <div class="flex flex-col space-y-6">
+                    <div class="space-y-6">
+                        <div>
+                            <fieldset class="flex flex-col space-y-2">
+                                <legend class="text-h4-size font-600 capitalize tracking-wide">contact information
+                                </legend>
+                                <label for="Email" class="capitalize text-text-light text-normal-size">email
+                                    address</label>
+                                <input type="email" name="Email" class="capitalize border border-border p-2">
+                            </fieldset>
+                        </div>
+                        <div
+                            class="divider flex justify-center relative before:absolute after:absolute before:content-[''] before:bg-border before:w-1/2 before:h-[1px] before:-left-5 before:top-3 after:content-[''] after:bg-border after:w-1/2 after:h-[1px] after:-right-5 after:top-3">
+                            <i class="fi fi-rs-fingerprint text-2xl text-text-light"></i>
+                        </div>
+                        <div>
+                            <fieldset action="" class="space-y-4">
+                                <legend class="text-h4-size font-600 capitalize tracking-wide">Shipping information
+                                </legend>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="flex flex-col space-y-2">
+                                        <label for="first name"
+                                            class="capitalize text-text-light text-normal-size">first
+                                            name</label>
+                                        <input type="text" name="first name"
+                                            class="capitalize w-full border border-border p-2">
+                                    </div>
+                                    <div class="flex flex-col space-y-2">
+                                        <label for="last name" class="capitalize text-text-light text-normal-size">last
+                                            name</label>
+                                        <input type="text" name="last name"
+                                            class="capitalize w-full border border-border p-2">
+                                    </div>
+                                    <div class="flex flex-col space-y-2 col-start-1 col-end-2">
+                                        <label for="" class="capitalize text-text-light text-normal-size">
+                                            country</label>
+                                        <input type="text" class=" capitalize w-full border border-border p-2" name=""
+                                            id="">
+                                    </div>
+                                    <div class="flex flex-col space-y-2 col-start-2 col-end-3">
+                                        <label for="" class=" capitalize text-text-light text-normal-size">
+                                            city</label>
+                                        <input type="text" class="capitalize border border-border p-2" name="" id="">
+                                    </div>
+                                    <div class="flex flex-col space-y-2 col-start-1 col-end-2">
+                                        <label for="State / Province"
+                                            class=" capitalize text-text-light text-normal-size">
+                                            State / Province</label>
+                                        <input type="text" class="capitalize border border-border p-2"
+                                            name="State / Province" id="">
+                                    </div>
+                                    <div class="flex flex-col space-y-2 col-start-2">
+                                        <label for="State / Province"
+                                            class=" capitalize text-text-light text-normal-size">
+                                            PostCode / ZIPCode</label>
+                                        <input type="text" class=" capitalize border border-border p-2" name="" id="">
+                                    </div>
+                                    <div class="flex flex-col space-y-2 col-start-1 col-end-3">
+                                        <label for="phone"
+                                            class="capitalize text-text-light text-normal-size">phone</label>
+                                        <input type="text" name="phone"
+                                            class="capitalize w-full border border-border p-2">
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div
+                        class="divider mt-2 flex justify-center relative before:absolute after:absolute before:content-[''] before:bg-border before:w-1/2 before:h-[1px] before:-left-5 before:top-3 after:content-[''] after:bg-border after:w-1/2 after:h-[1px] after:-right-5 after:top-3">
+                        <i class="fi fi-rs-fingerprint text-2xl text-text-light"></i>
+                    </div>
+                    <div class="space-y-2">
+                        <h4 class="text-h4-size font-600">Delivery method</h4>
+                        <div class="grid grid-cols-2 gap-4 Delivery-methods">
+                            <div onclick="choose_delivery_method_1('method-1')"
+                                class="method-1 cursor-pointer border-2 border-first p-3 rounded-xl">
+                                <div class="flex justify-between">
+                                    <span class="capitalize">standrad</span>
+                                    <div class="bg-first true-icon rounded-full px-[6px]"><i
+                                            class="fi fi-rr-check text-smaller-size text-white"></i>
+                                    </div>
+                                </div>
+                                <div class="space-y-8">
+                                    <p class="text-text">4–10 business days</p>
+                                    <span>$5.00</span>
+                                </div>
+                            </div>
+                            <div onclick="choose_delivery_method_2('method-2')"
+                                class="method-2 cursor-pointer border-2 border-border p-3 rounded-xl">
+                                <div class="flex justify-between">
+                                    <span class="capitalize">Express</span>
+                                    <div class="bg-first true-icon hidden rounded-full px-[6px]"><i
+                                            class="fi fi-rr-check text-smaller-size text-white"></i>
+                                    </div>
+                                </div>
+                                <div class="space-y-8">
+                                    <p class="text-text">2–5 business days</p>
+                                    <span>$16.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <fieldset class="space-y-2">
+                            <legend class="text-h4-size font-600">Payment</legend>
+                            <div class="flex space-x-8 text-large-size">
+                                <div class="space-x-2"><input id="credit-card" name="payment-type" type="radio" class=""
+                                        checked=""><label for="credit-card" class="">Credit
+                                        card</label></div>
+                                <div class="space-x-2"><input id="paypal" name="payment-type" type="radio"
+                                        class=""><label for="paypal" class="">PayPal</label></div>
+                                <div class="space-x-2"><input id="etransfer" name="payment-type" type="radio"
+                                        class=""><label for="etransfer" class="">eTransfer</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <!--======= SEC 2 =========-->
+                <div class="space-y-4">
+                    <h4 class="text-h4-size font-600 capitalize">order summary</h4>
+                    <div class="border border-border p-4 rounded-xl space-y-8 bg-first-alt">
+                        <!-- ORDERS -->
+                        <div class="order-summary max-h-[350px] overflow-auto order-summary">
+                            <div class="order border-b px-4 py-2 border-b-border flex justify-between">
+                                <div class="info flex items-center space-x-4">
+                                    <img src="./public/assets/images/category-4.jpg" width="100" alt="">
+                                    <div class="flex flex-col text-normal-size">
+                                        <p class="name capitalize">hat</p>
+                                        <p class="color text-text capitalize">blue</p>
+                                        <span class="size capitalize text-text">small</span>
+                                    </div>
+                                </div>
+                                <div class="subtotal text-large-size mt-2">700$</div>
+                            </div>
+                            <!-- <div class="order border-b px-4 py-2 border-b-border flex justify-between">
+                                    <div class="info flex items-center space-x-4">
+                                        <img src="./public/assets/images/category-4.jpg" width="100" alt="">
+                                        <div class="flex flex-col text-normal-size">
+                                            <p class="name capitalize">hat</p>
+                                            <p class="color text-text capitalize">blue</p>
+                                            <span class="size capitalize text-text">small</span>
+                                        </div>
+                                    </div>
+                                    <div class="subtotal text-large-size mt-2">700$</div>
+                                </div>
+                                <div class="order border-b px-4 py-2 border-b-border flex justify-between">
+                                    <div class="info flex items-center space-x-4">
+                                        <img src="./public/assets/images/category-4.jpg" width="100" alt="">
+                                        <div class="flex flex-col text-normal-size">
+                                            <p class="name capitalize">hat</p>
+                                            <p class="color text-text capitalize">blue</p>
+                                            <span class="size capitalize text-text">small</span>
+                                        </div>
+                                    </div>
+                                    <div class="subtotal text-large-size mt-2">700$</div>
+                                </div> -->
+                        </div>
+                        <div class="flex flex-col space-y-2  capitalize text-text font-semibold">
+                            <div class="flex justify-between px-3 py-2">
+                                <span>cart subtotal</span>
+                                <span id="sub-total">200$</span>
+                            </div>
+                            <div class="flex justify-between px-3 py-2">
+                                <span>shipping</span>
+                                <span id="shipping-cost">10.0$</span>
+                            </div>
+                            <div class="flex justify-between px-3 py-2">
+                                <span>total</span>
+                                <span id="total-cost">210$</span>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="bg-first cursor-pointer text-white w-fit px-4 py-3 rounded-lg flex items-center space-x-2 border border-first transition-all duration-200 hover:bg-white hover:text-first">
+                            <i class="fi fi-rs-box-alt"></i>
+                            <span class="block -mt-1 capitalize">confirm order</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="modal"
+        class="fixed lg:hidden bg-white min-w-full h-full top-0 left-250 flex flex-col px-8 py-4 space-y-8 transition-all duration-300">
+        <div class="flex justify-between items-center">
+            <img src="/assets/icons/logo.svg" width="100" alt="">
+            <button type="button" class="mt-2 cursor-pointer" onclick="hid_modal(modal)"><i
+                    class="fi fi-rr-cross-small text-3xl"></i></button>
+        </div>
+        <ul class="font-600 pl-2 text-large-size flex flex-col items-start space-y-8 space-x-8 *:hover:text-first">
+            <li><a href="#" id="active" class="">Home</a></li>
+            <li><a href="#products-content">Shop</a></li>
+            <li><a href="">My Account</a></li>
+            <li><a href="">Compare</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+    </div>
+    <div
+        class="confirm-order fixed z-30 rounded-2xl flex flex-col space-y-6 justify-center items-center top-1/3 left-1/2 transition-all duration-200 transform -translate-1/2 scale-0 w-1/4 h-1/3 bg-white">
+        <i class="true-icon fi fi-sr-check text-big-size text-first border border-first rounded-full px-4"></i>
+        <a href="index.html"
+            class="bg-first border border-first text-white text-large-size px-3 py-2 w-fit rounded-lg hover:bg-white hover:text-first transition-all duration-200">continue
+            shopping</a>
+    </div>
+    <div class="fixed z-20 overlay hidden w-full h-full top-0 bg-black/30"></div>
+</body>
+<script type="module" src="./src/checkout.js"></script>
+
+</html>

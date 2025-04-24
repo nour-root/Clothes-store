@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@flaticon/flaticon-uicons/css/all/all.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>shopping</title>
+</head>
+
+<body class="relative m-0 p-0 box-border bg-body font-family-body-lato overflow-x-hidden">
+    <header>
+        <div id="header-conten" class="md:px-16 px-6 py-6">
+            <nav class="flex justify-between items-center">
+                <div class="flex items-center space-x-12">
+                    <a id="logo" class="block -mt-3" href="index.html"><img src="/assets/icons/logo.svg" width="90"
+                            alt="logo"></a>
+                    <ul class="font-600 text-normal-size flex items-center space-x-8 max-md:hidden *:hover:text-first">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./shop.html" class="Active">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="flex space-x-8 items-center" id="icons">
+                    <form action=""
+                        class="px-6 py-2 pr-2 flex items-center border max-lg:hidden border-border-alt space-x-24">
+                        <input type="text" id="input-search" oninput="get_value('input-search')" name=""
+                            placeholder="Search for items..." class="focus:outline-0 focus:text-text text-small-size"
+                            id="">
+                        <button type="submit" class="cursor-pointer"><img src="/assets/icons/search.png"
+                                class="transform scale-80 transition-transform duration-300" alt=""></button>
+                    </form>
+                    <a href="./wishlist.html" class="relative">
+                        <div
+                            class="num-whish-order text-white absolute flex justify-center -right-4 -top-4 w-full h-full bg-first rounded-full">
+                        </div><img src="/assets/icons/icon-heart.svg" width="25" alt="">
+                    </a>
+                    <a href="./cart.html" class="relative">
+                        <div
+                            class="num-orders text-white absolute flex justify-center -right-4 -top-4 w-full h-full bg-first rounded-full">
+                        </div>
+                        <img src="/assets/icons/icon-cart.svg" width="25" alt="">
+                    </a>
+                    <button type="button" class="cursor-pointer" onclick="show_modal(modal)"><img class="lg:hidden cart"
+                            src="/assets/icons/menu-burger.svg" width="20" alt=""></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--======== BREADCRUMB ==========-->
+        <section id="breadcrumb" class="bg-container py-6 px-16">
+            <ul class="flex space-x-2 text-text capitalize">
+                <li><a href="index.html" class="">Home</a></li>
+                <li><span class=""> > </span></li>
+                <li><a href="shop.html" class="Active">shop</a></li>
+            </ul>
+        </section>
+        <!--======== PRODUCTS ==========-->
+        <section class="md:px-16 px-8 py-8 space-y-6">
+            <div class="flex gap-4 max-md:flex-col justify-between">
+                <h4 class="text-h4-size capitalize">we found <span class="text-first num-of-products">30</span> items
+                    for
+                    you!</h4>
+                <form action=""
+                    class="px-6 py-2 pr-2 flex justify-between items-center border lg:hidden border-border-alt space-x-42">
+                    <input type="text" id="input-search-md" oninput="get_value('input-search-md')" name=""
+                        placeholder="Search for items..." class="focus:outline-0 focus:text-text text-small-size" id="">
+                    <button type="submit" class="cursor-pointer mr-4"><img src="/assets/icons/search.png"
+                            class="transform scale-80 transition-transform duration-300" alt=""></button>
+                </form>
+            </div>
+            <div id="produtcs-total" class="grid gap-6 lg:grid-cols-4 md:grid-cols-2 md:gap-8 lg:gap-12"></div>
+            <ul class="pagination text-text-light flex items-center space-x-4">
+                <li><a class="Active-pagination" href="#">01</a></li>
+                <li><a href="#">..</a></li>
+                <li><a href="#"> <i class="fi-rs-angle-double-small-right"></i></a></li>
+            </ul>
+        </section>
+        <!--========== NEWSLETTER ===========-->
+        <section id=""
+            class="md:px-16 px-6 py-8 bg-[hsl(166,23%,74%)] flex items-center justify-between max-md:flex-col max-md:space-y-4">
+            <div class="flex items-center justify-between space-x-4 px-8">
+                <img src="/assets/icons/email.png" width="50" alt="">
+                <p class="text-large-size capitalize font-600 tracking-wide">Sing up to newsletter</p>
+            </div>
+            <p class="tracking-wide font-500">...and receive $25 coupon for first shopping</p>
+            <form action="" class="space-y-4 max-md:justify-center">
+                <input type="text" placeholder="enter your email"
+                    class="bg-white px-8 py-2 w-[350px] capitalize focus:outline-0">
+                <button type="submit" class="capitalize text-white bg-black  px-8 py-2 -ml-1">subscribe</button>
+            </form>
+        </section>
+        <footer class="md:px-16 px-6 py-8 space-y-12">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
+                <div class="flex flex-col space-y-6">
+                    <div class="space-y-4">
+                        <img src="/assets/icons/logo.svg" width="120" alt="">
+                        <span class="text-text-light block capitalize tracking-wider text-normal-size">contact</span>
+                        <div class="capitalize">Address: <span class="text-text">562 Wellington road, street 32,san
+                                francisco</span></div>
+                        <div class="capitalize">phone: <span class="text-text">+01 2222 365/(+91)01 2345 6789</span>
+                        </div>
+                        <div class="capitalize">Hours: <span class="text-text">10:00 - 18:00,Moon - sat</span></div>
+                    </div>
+                    <div class="text-text flex flex-col space-y-2"><span class="capitalize">follow me</span>
+                        <div class="flex">
+                            <img src="/assets/icons/icon-facebook.svg" width="30" alt="">
+                            <img src="/assets/icons/icon-instagram.svg" width="30" alt="">
+                            <img src="/assets/icons/icon-twitter.svg" width="30" alt="">
+                            <img src="/assets/icons/icon-youtube.svg" width="30" alt="">
+                            <img src="/assets/icons/icon-instagram.svg" width="30" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div class="space-y-2">
+                        <h4 class="text-h4-size">Address</h4>
+                        <ul class="text-text capitalize space-y-3">
+                            <li>about</li>
+                            <li>delivery information</li>
+                            <li>privacy policy</li>
+                            <li>tems & condition</li>
+                            <li>contact</li>
+                            <li>support center</li>
+                        </ul>
+                    </div>
+                    <div class="space-y-2">
+                        <h4 class="text-h4-size capitalize">My account</h4>
+                        <ul class="text-text capitalize space-y-3">
+                            <li>sing in</li>
+                            <li>view cart</li>
+                            <li>my wishlist</li>
+                            <li>track my order</li>
+                            <li>help</li>
+                            <li>order</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <p class="font-500 text-large-size capitalize">secured payment gateways</p>
+                    <img src="/assets/images/payment-method.png" alt="">
+                </div>
+            </div>
+            <div class="flex justify-between items-center text-text-light capitalize">
+                <p>@ 2025 evara, all right reserved</p>
+                <p>designed by niran-root</p>
+            </div>
+        </footer>
+    </main>
+    <div id="modal"
+        class="fixed lg:hidden bg-white w-full h-full top-0 left-250 flex flex-col px-8 py-4 space-y-8 transition-all duration-300">
+        <div class="flex justify-between items-center">
+            <img src="./assets/icons/logo.svg" width="100" alt="">
+            <button type="button" class="mt-2 cursor-pointer" onclick="hid_modal(modal)"><i
+                    class="fi fi-rr-cross-small text-3xl"></i></button>
+        </div>
+        <ul class="font-600 pl-2 text-large-size flex flex-col items-start space-y-8 space-x-8 *:hover:text-first">
+            <li><a href="#" id="active" class="">Home</a></li>
+            <li><a href="#products-content">Shop</a></li>
+            <li><a href="">My Account</a></li>
+            <li><a href="">Compare</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+    </div>
+</body>
+<script type="module" src="./src/shop.js"></script>
+
+</html>

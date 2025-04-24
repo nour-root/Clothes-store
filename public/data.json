@@ -1,0 +1,722 @@
+{
+    "categories": [
+        {
+            "name": "hats",
+            "image": "./assets/images/category-8.jpg"
+        },
+        {
+            "name": "shirt",
+            "image": "./assets/images/category-1.jpg"
+        },
+        {
+            "name": "snadal",
+            "image": "./assets/images/category-3.jpg"
+        },
+        {
+            "name": "bags",
+            "image": "./assets/images/category-2.jpg"
+        },
+        {
+            "name": "shoes",
+            "image": "./assets/images/category-5.jpg"
+        },
+        {
+            "name": "Pants",
+            "image": "./assets/images/category-7.jpg"
+        },
+        {
+            "name": "pillowcase",
+            "image": "./assets/images/category-6.jpg"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "typ_p": [
+                "feature"
+            ],
+            "category": "shirt",
+            "name": "Earthy-colored shirt",
+            "image": [
+                "/assets/images/product-1-1.jpg",
+                "/assets/images/product-1-2.jpg"
+            ],
+            "price": 116.0,
+            "brand": "Lee",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "red-600",
+                "yellow-600",
+                "amber-950"
+            ],
+            "size": [
+                "L",
+                "Xl"
+            ]
+        },
+        {
+            "id": 2,
+            "typ_p": [
+                "feature"
+            ],
+            "category": "shirt",
+            "name": "Summer colored shirt",
+            "image": [
+                "/assets/images/product-2-1.jpg",
+                "/assets/images/product-2-2.jpg"
+            ],
+            "price": 100.0,
+            "brand": "Lee",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "red-600",
+                "yellow-500",
+                "blue-600"
+            ],
+            "size": [
+                "L",
+                "Xl"
+            ]
+        },
+        {
+            "id": 3,
+            "typ_p": [
+                "feature"
+            ],
+            "category": "shoes",
+            "name": "Beige sports shoes",
+            "image": [
+                "/assets/images/product-3-1.jpg",
+                "/assets/images/product-3-2.jpg"
+            ],
+            "price": 116.0,
+            "brand": "adidas",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "orange-200",
+                "gray-700"
+            ],
+            "size": [
+                38,
+                40,
+                42
+            ]
+        },
+        {
+            "id": 4,
+            "typ_p": [
+                "feature"
+            ],
+            "category": "Pants",
+            "name": "Summer colored shirt",
+            "image": [
+                "/assets/images/product-4-1.jpg",
+                "/assets/images/product-4-2.jpg"
+            ],
+            "price": 80.0,
+            "brand": "Gap",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "gray-300",
+                "purple-600"
+            ],
+            "size": [
+                "M",
+                "L",
+                "Xl"
+            ]
+        },
+        {
+            "id": 5,
+            "typ_p": [
+                "feature"
+            ],
+            "category": "hats",
+            "name": "Summer colored hats",
+            "image": [
+                "/assets/images/product-5-1.jpg",
+                "/assets/images/product-5-2.jpg"
+            ],
+            "price": 80.0,
+            "brand": "Bailey Hats.",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "blue-600",
+                "black"
+            ],
+            "size": [
+                "stand"
+            ]
+        },
+        {
+            "id": 6,
+            "typ_p": [
+                "feature"
+            ],
+            "category": "shirt",
+            "name": "bright floral shirt",
+            "image": [
+                "/assets/images/product-6-1.jpg",
+                "/assets/images/product-6-2.jpg"
+            ],
+            "price": 70.0,
+            "brand": "Allen Solly",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "blue-950"
+            ],
+            "size": [
+                "M",
+                "L"
+            ]
+        },
+        {
+            "id": 7,
+            "typ_p": [
+                "feature"
+            ],
+            "category": "shirt",
+            "name": "print V-neck T-shirt",
+            "image": [
+                "/assets/images/product-7-1.jpg"
+            ],
+            "price": 50.0,
+            "brand": "Moschino.",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "purple-600"
+            ],
+            "size": [
+                "M",
+                "L"
+            ]
+        },
+        {
+            "id": 8,
+            "typ_p": [
+                ""
+            ],
+            "category": "shirt",
+            "name": "print V-neck Patterned T-shirt",
+            "image": [
+                "/assets/images/product-7-2.jpg"
+            ],
+            "price": 45.3,
+            "brand": "Allen Solly",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "blue-600"
+            ],
+            "size": [
+                "M",
+                "L",
+                "Xl"
+            ]
+        },
+        {
+            "id": 9,
+            "typ_p": "",
+            "category": "shirt",
+            "name": "multi-color shirt",
+            "image": [
+                "/assets/images/product-8-1.jpg",
+                "/assets/images/product-8-2.jpg"
+            ],
+            "price": 120.0,
+            "brand": "Van Heusen",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "blue-500",
+                "orange-500"
+            ],
+            "size": [
+                "M",
+                "L"
+            ]
+        },
+        {
+            "id": 10,
+            "typ_p": [
+                "popular"
+            ],
+            "category": "shirt",
+            "name": "multi-color shirt",
+            "image": [
+                "/assets/images/product-9-1.jpg",
+                "/assets/images/product-9-2.jpg"
+            ],
+            "price": 104.5,
+            "brand": "US Polo",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "green-600",
+                "yellow-500"
+            ],
+            "size": [
+                "M",
+                "L",
+                "Xl"
+            ]
+        },
+        {
+            "id": 11,
+            "typ_p": [
+                "popular",
+                "new added"
+            ],
+            "category": "snadal",
+            "name": "color pattren sandal",
+            "image": [
+                "/assets/images/product-10-1.jpg",
+                "/assets/images/product-10-2.jpg"
+            ],
+            "price": 65.7,
+            "brand": "Birkenstock",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "orange-600",
+                "blue-500"
+            ],
+            "size": [
+                38,
+                40,
+                42
+            ]
+        },
+        {
+            "id": 12,
+            "typ_p": [
+                "feature"
+            ],
+            "category": "Pants",
+            "name": "Summer colored pants",
+            "image": [
+                "/assets/images/product-11-1.jpg",
+                "/assets/images/product-11-2.jpg"
+            ],
+            "price": 110.3,
+            "brand": "Malika Metallic",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "amber-200",
+                "black"
+            ],
+            "size": [
+                "M",
+                "L",
+                "Xl"
+            ]
+        },
+        {
+            "id": 13,
+            "typ_p": [
+                "new added"
+            ],
+            "category": "shirt",
+            "name": "multi-color shirt",
+            "image": [
+                "/assets/images/product-12-1.jpg",
+                "/assets/images/product-12-2.jpg"
+            ],
+            "price": 94.5,
+            "brand": "Dsquared2.",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "white"
+            ],
+            "size": [
+                "M",
+                "L",
+                "Xl"
+            ]
+        },
+        {
+            "id": 14,
+            "typ_p": [
+                "new added"
+            ],
+            "category": "bags",
+            "name": "pretty bag",
+            "image": [
+                "/assets/images/product-13-1.jpg"
+            ],
+            "price": 94.5,
+            "brand": "Dsquared2.",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "green-900"
+            ],
+            "size": [
+                "M",
+                "S"
+            ]
+        },
+        {
+            "id": 15,
+            "typ_p": "",
+            "category": "bags",
+            "name": "floral patterned bag",
+            "image": [
+                "/assets/images/product-13-2.jpg"
+            ],
+            "price": 87.5,
+            "brand": "Dsquared2.",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "gray-400"
+            ],
+            "size": [
+                "M",
+                "L"
+            ]
+        },
+        {
+            "id": 16,
+            "typ_p": "",
+            "category": "bags",
+            "name": "Elegant bag",
+            "image": [
+                "/public/assets/images/showcase-img-1.jpg"
+            ],
+            "price": 78.5,
+            "brand": "Dsquared2.",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "rose-500"
+            ],
+            "size": [
+                "M",
+                "L"
+            ]
+        },
+        {
+            "id": 17,
+            "typ_p": "",
+            "category": "pillowcase",
+            "name": "pattren pillowcase",
+            "image": [
+                "/assets/images/showcase-img-2.jpg"
+            ],
+            "price": 78.5,
+            "brand": "ComfoLust",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "blue-500",
+                "white"
+            ],
+            "size": [
+                "M",
+                "L"
+            ]
+        },
+        {
+            "id": 18,
+            "typ_p": "",
+            "category": "bags",
+            "name": "Practical bag",
+            "image": [
+                "/assets/images/showcase-img-3.jpg"
+            ],
+            "price": 78.5,
+            "brand": "Chloé",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "orange-300"
+            ],
+            "size": [
+                "M",
+                "L"
+            ]
+        },
+        {
+            "id": 19,
+            "typ_p": "",
+            "category": "shirt",
+            "name": "multi-color shirt",
+            "image": [
+                "/assets/images/showcase-img-5.jpg"
+            ],
+            "price": 80.5,
+            "brand": "Dsquared2.",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "amber-950"
+            ],
+            "size": [
+                "M",
+                "L"
+            ]
+        },
+        {
+            "id": 20,
+            "typ_p": "",
+            "category": "shirt",
+            "name": "multi-color shirt",
+            "image": [
+                "/assets/images/showcase-img-6.jpg"
+            ],
+            "price": 67.5,
+            "brand": "Dsquared2.",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+            "color": [
+                "white",
+                "blue-800"
+            ],
+            "size": [
+                "M",
+                "L"
+            ]
+        }
+    ],
+    "showcase": {
+        "hot releases": [
+            {
+                "id": 16,
+                "typ_p": "",
+                "category": "bags",
+                "name": "floral print casual cotton dress",
+                "image": [
+                    "/assets/images/showcase-img-1.jpg"
+                ],
+                "price": 78.5,
+                "brand": "Dsquared2.",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "pink-500"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            },
+            {
+                "id": 17,
+                "typ_p": "",
+                "category": "pillowcase",
+                "name": "ruffled solid long sleeve blouse",
+                "image": [
+                    "/assets/images/showcase-img-2.jpg"
+                ],
+                "price": 78.5,
+                "brand": "ComfoLust",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "blue-600",
+                    "white"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            },
+            {
+                "id": 18,
+                "typ_p": "",
+                "category": "bags",
+                "name": "multi-color print v-neck T-shirt",
+                "image": [
+                    "/assets/images/showcase-img-3.jpg"
+                ],
+                "price": 78.5,
+                "brand": "Chloé",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "brown"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            }
+        ],
+        "deals & outlet": [
+            {
+                "id": 5,
+                "typ_p": [
+                    "feature"
+                ],
+                "category": "hats",
+                "name": "Summer colored hats",
+                "image": [
+                    "/assets/images/product-5-1.jpg",
+                    "/assets/images/product-5-2.jpg"
+                ],
+                "price": 80.0,
+                "brand": "Bailey Hats.",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "blue-600",
+                    "black"
+                ],
+                "size": [
+                    "standard"
+                ]
+            },
+            {
+                "id": 19,
+                "typ_p": "",
+                "category": "bags",
+                "name": "multi-color shirt",
+                "image": [
+                    "/assets/images/showcase-img-5.jpg"
+                ],
+                "price": 80.5,
+                "brand": "Dsquared2.",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "amber-950"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            },
+            {
+                "id": 20,
+                "typ_p": "",
+                "category": "shirt",
+                "name": "multi-color shirt",
+                "image": [
+                    "/assets/images/showcase-img-6.jpg"
+                ],
+                "price": 67.5,
+                "brand": "Dsquared2.",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "white",
+                    "blue-600"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            }
+        ],
+        "top selling": [
+            {
+                "id": 3,
+                "typ_p": [
+                    "feature"
+                ],
+                "category": "shoes",
+                "name": "Beige sports shoes",
+                "image": [
+                    "/assets/images/product-3-1.jpg",
+                    "/assets/images/product-3-2.jpg"
+                ],
+                "price": 116.0,
+                "brand": "adidas",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "amber-950",
+                    "gray-600"
+                ],
+                "size": [
+                    38,
+                    40,
+                    42
+                ]
+            },
+            {
+                "id": 19,
+                "typ_p": "",
+                "category": "bags",
+                "name": "multi-color shirt",
+                "image": [
+                    "/assets/images/showcase-img-8.jpg"
+                ],
+                "price": 80.5,
+                "brand": "Dsquared2.",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "amber-950"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            },
+            {
+                "id": 9,
+                "typ_p": "",
+                "category": "shirt",
+                "name": "multi-color shirt",
+                "image": [
+                    "/assets/images/product-8-1.jpg",
+                    "/assets/images/product-8-2.jpg"
+                ],
+                "price": 120.0,
+                "brand": "Van Heusen",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "blue-600",
+                    "orange-500"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            }
+        ],
+        "trendy": [
+            {
+                "id": 16,
+                "typ_p": "",
+                "category": "bags",
+                "name": "floral print casual cotton dress",
+                "image": [
+                    "/assets/images/showcase-img-1.jpg"
+                ],
+                "price": 78.5,
+                "brand": "Dsquared2.",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "pink"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            },
+            {
+                "id": 17,
+                "typ_p": "",
+                "category": "pillowcase",
+                "name": "ruffled solid long sleeve blouse",
+                "image": [
+                    "/assets/images/showcase-img-2.jpg"
+                ],
+                "price": 78.5,
+                "brand": "ComfoLust",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "blue-600",
+                    "white"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            },
+            {
+                "id": 18,
+                "typ_p": "",
+                "category": "bags",
+                "name": "multi-color print v-neck T-shirt",
+                "image": [
+                    "/assets/images/showcase-img-3.jpg"
+                ],
+                "price": 78.5,
+                "brand": "Chloé",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
+                "color": [
+                    "amber-950"
+                ],
+                "size": [
+                    "M",
+                    "L"
+                ]
+            }
+        ]
+    }
+}

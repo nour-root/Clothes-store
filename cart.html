@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@flaticon/flaticon-uicons/css/all/all.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Cart</title>
+</head>
+
+<body class="relative m-0 p-0 box-border bg-body font-family-body-lato overflow-x-hidden">
+    <header>
+        <div id="header-conten" class="md:px-16 px-6 py-8">
+            <nav class="flex justify-between items-center">
+                <div class="flex items-center space-x-12">
+                    <a id="logo" class="block -mt-3" href="index.html"><img src="/assets/icons/logo.svg" width="90"
+                            alt="logo"></a>
+                    <ul class="font-600 text-normal-size flex items-center space-x-8 max-md:hidden *:hover:text-first">
+                        <li><a href="./index.html" id="active">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="flex space-x-8 items-center" id="icons">
+                    <form action=""
+                        class="px-6 py-2 pr-2 flex items-center border max-lg:hidden border-border-alt space-x-24">
+                        <input type="text" id="input-search" oninput="get_value('input-search')" name=""
+                            placeholder="Search for items..." class="focus:outline-0 focus:text-text text-small-size"
+                            id="">
+                        <button type="submit" class="cursor-pointer"><img src="/assets/icons/search.png"
+                                class="transform scale-80 transition-transform duration-300" alt=""></button>
+                    </form>
+                    <a href="./wishlist.html" class="relative">
+                        <div
+                            class="num-whish-order text-white absolute flex justify-center -right-4 -top-4 w-full h-full bg-first rounded-full">
+                        </div><img src="/assets/icons/icon-heart.svg" width="25" alt="">
+                    </a>
+                    <!-- <a href="./cart.html"><img src="/assets/icons/icon-cart.svg" width="22" alt=""></a> -->
+                    <button type="button" class="cursor-pointer" onclick="show_modal(modal)"><img class="lg:hidden cart"
+                            src="/assets/icons/menu-burger.svg" width="20" alt=""></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--======== BREADCRUMB ==========-->
+        <section id="breadcrumb" class="bg-container py-6 px-16">
+            <ul class="flex space-x-2 text-text">
+                <li><a href="index.html" class="">Home</a></li>
+                <li><span class=""> > </span></li>
+                <li><a href="shop.html" class="capitalize">shop</a></li>
+                <li><span class=""> > </span></li>
+                <li><a href="cart.html" class="capitalize Active">Cart</a></li>
+            </ul>
+        </section>
+        <!--======== CART ==========-->
+        <section id="table-cart" class="relative w-full py-6 px-4 md:px-12 space-y-6">
+            <div class="flex gap-4 max-md:flex-col justify-between">
+                <form action=""
+                    class="px-6 py-2 pr-2 flex justify-between items-center border lg:hidden border-border-alt space-x-42">
+                    <input type="text" id="input-search-md" oninput="get_value('input-search-md')" name=""
+                        placeholder="Search for items..." class="focus:outline-0 focus:text-text text-small-size" id="">
+                    <button type="submit" class="cursor-pointer mr-4"><img src="/assets/icons/search.png"
+                            class="transform scale-80 transition-transform duration-300" alt=""></button>
+                </form>
+            </div>
+            <div class="w-full overflow-x-auto scrollbar-custom">
+                <div class="h-[400px] overflow-y-auto scrollbar-custom">
+                    <table
+                        class="table-fixed max-md:min-w-[620px] max-lg:min-w-[820px] lg:min-w-[1300px] xl:min-w-full text-text capitalize text-center border-collapse">
+                        <thead class="sticky top-0 bg-white z-10">
+                            <tr>
+                                <th class="p-4 border-b">Image</th>
+                                <th class="p-4 border-b">Name</th>
+                                <th class="p-4 border-b">Price</th>
+                                <th class="p-4 border-b">Quantity</th>
+                                <th class="p-4 border-b">Subtotal</th>
+                                <th class="p-4 border-b">Remove</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="flex justify-center items-center p-4">
+                                    <img src="/assets/images/product-1-1.jpg" class="rounded-full" width="90" alt="">
+                                </td>
+                                <td class="p-4">T-shirt</td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <input type="number" min="1" value="1"
+                                        class="w-19 py-2 pl-4 pr-3 focus:outline-0 rounded-xl border border-border" />
+                                </td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <button type="submit" class="cursor-pointer">
+                                        <i class="fi fi-rs-trash text-xl text-red-500"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="flex justify-center items-center p-4">
+                                    <img src="/assets/images/product-1-1.jpg" class="rounded-full" width="90" alt="">
+                                </td>
+                                <td class="p-4">T-shirt</td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <input type="number" min="1" value="1"
+                                        class="w-19 py-2 pl-4 pr-3 focus:outline-0 rounded-xl border border-border" />
+                                </td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <button type="submit" class="cursor-pointer">
+                                        <i class="fi fi-rs-trash text-xl text-red-500"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="flex justify-center items-center p-4">
+                                    <img src="/assets/images/product-1-1.jpg" class="rounded-full" width="90" alt="">
+                                </td>
+                                <td class="p-4">T-shirt</td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <input type="number" min="1" value="1"
+                                        class="w-19 py-2 pl-4 pr-3 focus:outline-0 rounded-xl border border-border" />
+                                </td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <button type="submit" class="cursor-pointer">
+                                        <i class="fi fi-rs-trash text-xl text-red-500"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="flex justify-center items-center p-4">
+                                    <img src="/assets/images/product-1-1.jpg" class="rounded-full" width="90" alt="">
+                                </td>
+                                <td class="p-4">T-shirt</td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <input type="number" min="1" value="1"
+                                        class="w-19 py-2 pl-4 pr-3 focus:outline-0 rounded-xl border border-border" />
+                                </td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <button type="submit" class="cursor-pointer">
+                                        <i class="fi fi-rs-trash text-xl text-red-500"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="flex justify-center items-center p-4">
+                                    <img src="/assets/images/product-1-1.jpg" class="rounded-full" width="90" alt="">
+                                </td>
+                                <td class="p-4">T-shirt</td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <input type="number" min="1" value="1"
+                                        class="w-19 py-2 pl-4 pr-3 focus:outline-0 rounded-xl border border-border" />
+                                </td>
+                                <td class="p-4">$200.00</td>
+                                <td class="p-4">
+                                    <button type="submit" class="cursor-pointer">
+                                        <i class="fi fi-rs-trash text-xl text-red-500"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <!-- Repeat as needed -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Add a `disabled` class or attribute conditionally with JS or server logic -->
+            <div class="w-full flex justify-end max-md:mx-auto btn-checkout">
+                <a href="checkout.html"
+                    class="bg-first text-white w-fit px-4 py-3 rounded-lg flex items-center space-x-2 border border-first transition-all duration-200 hover:bg-white hover:text-first ">
+                    <i class="fi fi-rs-box-alt"></i>
+                    <span class="block -mt-1 capitalize">proceed to checkout</span>
+                </a>
+            </div>
+
+        </section>
+    </main>
+    <div id="modal"
+        class="fixed z-20 lg:hidden bg-white w-full h-full top-0 left-250 flex flex-col px-8 py-4 space-y-8 transition-all duration-300">
+        <div class="flex justify-between items-center ">
+            <img src="/assets/icons/logo.svg" width="100" alt="">
+            <button type="button" class="mt-2 cursor-pointer" onclick="hid_modal(modal)"><i
+                    class="fi fi-rr-cross-small text-3xl"></i></button>
+        </div>
+        <ul class="font-600 pl-2 text-large-size flex flex-col items-start space-y-8 space-x-8 *:hover:text-first">
+            <li><a href="index.html" id="active" class="">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="account.html">My Account</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+</body>
+<script type="module" src="./src/cart.js"></script>
+
+</html>
