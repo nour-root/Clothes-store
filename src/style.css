@@ -180,7 +180,7 @@ textarea,body{
   }
 
   .swiper {
-    overflow: inherit;
+    overflow: visible;
   }
 
   .swiper-button-next,
