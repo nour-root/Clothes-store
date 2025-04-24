@@ -183,11 +183,6 @@ textarea,body{
     overflow: inherit;
   }
 
-  .swiper-button-next::after,
-  .swiper-button-prev::after {
-    content: '';
-  }
-
   .swiper-button-next,
   .swiper-button-prev {
     top: -1.975rem;
@@ -195,6 +190,10 @@ textarea,body{
     border-radius: 100%;
     padding: 12px 1.25rem;
     cursor: pointer;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    content:unset;
   }
 
   .swiper-button-next {
