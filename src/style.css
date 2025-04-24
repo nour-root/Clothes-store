@@ -178,13 +178,17 @@ textarea,body{
     background-size: cover;
     background-position:center;
   }
-
+  .swiper-container-wrapper{
+    position: relative;
+    overflow: visible;
+  }
   .swiper {
     overflow: inherit !important;
   }
 
   .swiper-button-next,
   .swiper-button-prev {
+    position: absolute; 
     top: -1.975rem;
     background-color: var(--color-first-alt);
     border-radius: 100%;
