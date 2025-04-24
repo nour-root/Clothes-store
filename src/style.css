@@ -178,10 +178,6 @@ textarea,body{
     background-size: cover;
     background-position:center;
   }
-  .swiper-container-wrapper{
-    position: relative;
-    overflow: visible;
-  }
   .swiper {
     overflow: inherit !important;
   }
