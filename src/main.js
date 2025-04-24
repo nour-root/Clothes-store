@@ -1,6 +1,7 @@
 import EmblaCarousel from "embla-carousel";
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
+import "swiper/css";
 import "./style.css";
 import { addPrevNextBtnsClickHandlers } from "./components/EmblaCarouselArrowButton";
 import {
@@ -42,14 +43,14 @@ ScrollReveal().reveal("#subtitle", {
   easing: "ease-in-out",
 });
 ScrollReveal().reveal(".deal-1", {
-  delay: 1200,
+  delay: 1000,
   origin: "left",
   distance: "20px",
   duration: 1000,
   easing: "ease-in-out",
 });
 ScrollReveal().reveal(".deal-2", {
-  delay: 1200,
+  delay: 1000,
   origin: "right",
   distance: "20px",
   duration: 1000,

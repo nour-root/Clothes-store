@@ -94,7 +94,11 @@ let get_color = (index, id) => {
     .dataset.color.split("-")
     .splice(0, 1)
     .join("");
-  choose_color(color_value, id);
+  let item = OrdersCart.find((x) => x.id === id);
+  if (item === undefined) return;
+  if (item) {
+    return (item.color = color_value);
+  }
 };
 let get_size = (index, id) => {
   Object.values(
@@ -104,23 +108,13 @@ let get_size = (index, id) => {
   });
   document.getElementById(`index-s-${index}`).classList.add("active-option");
   let size_value = document.getElementById(`index-s-${index}`).dataset.size;
-  choose_size(size_value, id);
+  let item = OrdersCart.find((x) => x.id === id);
+  if (item === undefined) return;
+  if (item) {
+    return (item.size = size_value);
+  }
 };
 
-let choose_color = (color_item, id) => {
-  let item = OrdersCart.find((x) => x.id === id);
-  if (item === undefined) return;
-  if (item) {
-    return (item.color = color_item);
-  }
-};
-let choose_size = (size_item, id) => {
-  let item = OrdersCart.find((x) => x.id === id);
-  if (item === undefined) return;
-  if (item) {
-    return (item.size = size_item);
-  }
-};
 Total_Orders();
 window.show_modal = show_modal;
 window.hid_modal = hid_modal;

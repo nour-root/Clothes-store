@@ -193,7 +193,8 @@ textarea,body{
   }
   .swiper-button-next::after,
   .swiper-button-prev::after {
-    content:unset;
+    content: '' !important;
+    display: none !important;
   }
 
   .swiper-button-next {
