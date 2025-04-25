@@ -45,9 +45,9 @@
             "brand": "Lee",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#e7000b",
-                "#d08700",
-                "#461901"
+                "red-#e7000b",
+                "yellow-#d08700",
+                "brown-#461901"
             ],
             "size": [
                 "L",
@@ -69,9 +69,9 @@
             "brand": "Lee",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#e7000b",
-                "#f0b100",
-                "#155dfc"
+                "red-#e7000b",
+                "yellow-#f0b100",
+                "blue-#155dfc"
             ],
             "size": [
                 "L",
@@ -93,8 +93,8 @@
             "brand": "adidas",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#ffd7a8",
-                "#364153"
+                "beige-#ffd7a8",
+                "gray-#364153"
             ],
             "size": [
                 38,
@@ -117,8 +117,8 @@
             "brand": "Gap",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#d1d5dc",
-                "#9810fa"
+                "gray-#d1d5dc",
+                "purple-#9810fa"
             ],
             "size": [
                 "M",
@@ -141,8 +141,8 @@
             "brand": "Bailey Hats.",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#155dfc",
-                "#0000"
+                "blue-#155dfc",
+                "black-#000"
             ],
             "size": [
                 "stand"
@@ -163,7 +163,7 @@
             "brand": "Allen Solly",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#162556"
+                "dark_blue-#162556"
             ],
             "size": [
                 "M",
@@ -184,7 +184,7 @@
             "brand": "Moschino.",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#ad46ff"
+                "purple-#ad46ff"
             ],
             "size": [
                 "M",
@@ -205,7 +205,7 @@
             "brand": "Allen Solly",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#155dfc"
+                "blue-#155dfc"
             ],
             "size": [
                 "M",
@@ -226,8 +226,8 @@
             "brand": "Van Heusen",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#2b7fff",
-                "#ff6900"
+                "blue-#2b7fff",
+                "orange-#ff6900"
             ],
             "size": [
                 "M",
@@ -249,8 +249,8 @@
             "brand": "US Polo",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#00a63e",
-                "#f0b100"
+                "green-#00a63e",
+                "yellow-#f0b100"
             ],
             "size": [
                 "M",
@@ -274,8 +274,8 @@
             "brand": "Birkenstock",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#f54a00",
-                "#2b7fff"
+                "orange-#f54a00",
+                "blue-#2b7fff"
             ],
             "size": [
                 38,
@@ -298,8 +298,8 @@
             "brand": "Malika Metallic",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#fee685",
-                "#000"
+                "Light_yellow-#fee685",
+                "black-#000"
             ],
             "size": [
                 "M",
@@ -322,7 +322,7 @@
             "brand": "Dsquared2.",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#fff"
+                "white-#fff"
             ],
             "size": [
                 "M",
@@ -344,7 +344,7 @@
             "brand": "Dsquared2.",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#0d542b"
+                "dark_green-#0d542b"
             ],
             "size": [
                 "M",
@@ -363,7 +363,7 @@
             "brand": "Dsquared2.",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#99a1af"
+                "gray-#99a1af"
             ],
             "size": [
                 "M",
@@ -376,13 +376,13 @@
             "category": "bags",
             "name": "Elegant bag",
             "image": [
-                "/public/assets/images/showcase-img-1.jpg"
+                "/assets/images/showcase-img-1.jpg"
             ],
             "price": 78.5,
             "brand": "Dsquared2.",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#ff2056"
+                "pink-#ff2056"
             ],
             "size": [
                 "M",
@@ -401,8 +401,8 @@
             "brand": "ComfoLust",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#2b7fff",
-                "#fff"
+                "blue-#2b7fff",
+                "white-#fff"
             ],
             "size": [
                 "M",
@@ -421,7 +421,7 @@
             "brand": "Chloé",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#ffb86a"
+                "orange-#ffb86a"
             ],
             "size": [
                 "M",
@@ -440,7 +440,7 @@
             "brand": "Dsquared2.",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#461901"
+                "brown-#461901"
             ],
             "size": [
                 "M",
@@ -459,8 +459,8 @@
             "brand": "Dsquared2.",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
             "color": [
-                "#fff",
-                "#193cb8"
+                "white-#fff",
+                "dark_blue-#193cb8"
             ],
             "size": [
                 "M",
@@ -482,7 +482,7 @@
                 "brand": "Dsquared2.",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#ff2056"
+                    "pink-#ff2056"
                 ],
                 "size": [
                     "M",
@@ -501,8 +501,8 @@
                 "brand": "ComfoLust",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#2b7fff",
-                    "#fff"
+                    "blue-#2b7fff",
+                    "white-#fff"
                 ],
                 "size": [
                     "M",
@@ -513,7 +513,7 @@
                 "id": 18,
                 "typ_p": "",
                 "category": "bags",
-                "name": "multi-color print v-neck T-shirt",
+                "name": "Practical bag",
                 "image": [
                     "/assets/images/showcase-img-3.jpg"
                 ],
@@ -521,7 +521,7 @@
                 "brand": "Chloé",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#ffb86a"
+                    "orange-#ffb86a"
                 ],
                 "size": [
                     "M",
@@ -564,7 +564,7 @@
                 "brand": "Dsquared2.",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#461901"
+                    "brown-#461901"
                 ],
                 "size": [
                     "M",
@@ -608,8 +608,8 @@
                 "brand": "adidas",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#ffd7a8",
-                    "#364153"
+                    "beige-#ffd7a8",
+                    "gray-#364153"
                 ],
                 "size": [
                     38,
@@ -621,7 +621,7 @@
                 "id": 19,
                 "typ_p": "",
                 "category": "bags",
-                "name": "multi-color shirt",
+                "name": "pretty bag",
                 "image": [
                     "/assets/images/showcase-img-8.jpg"
                 ],
@@ -629,7 +629,7 @@
                 "brand": "Dsquared2.",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#461901"
+                    "brown-#461901"
                 ],
                 "size": [
                     "M",
@@ -649,8 +649,8 @@
                 "brand": "Van Heusen",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#2b7fff",
-                    "#ff6900"
+                    "blue-#2b7fff",
+                    "orange-#ff6900"
                 ],
                 "size": [
                     "M",
@@ -663,7 +663,7 @@
                 "id": 16,
                 "typ_p": "",
                 "category": "bags",
-                "name": "floral print casual cotton dress",
+                "name": "floral print casual",
                 "image": [
                     "/assets/images/showcase-img-1.jpg"
                 ],
@@ -671,7 +671,7 @@
                 "brand": "Dsquared2.",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#ff2056"
+                    "pink-#ff2056"
                 ],
                 "size": [
                     "M",
@@ -690,8 +690,8 @@
                 "brand": "ComfoLust",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#2b7fff",
-                    "#fff"
+                    "blue-#2b7fff",
+                    "white-#fff"
                 ],
                 "size": [
                     "M",
@@ -702,7 +702,7 @@
                 "id": 18,
                 "typ_p": "",
                 "category": "bags",
-                "name": "multi-color print v-neck T-shirt",
+                "name": "Practical bag",
                 "image": [
                     "/assets/images/showcase-img-3.jpg"
                 ],
@@ -710,7 +710,7 @@
                 "brand": "Chloé",
                 "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, suscipit odit error placeat corporis aliquid debitis similique porro facilis, dolorum vero maiores ex nam accusantium modi eveniet quos dolorem. Voluptate! Veniam asperiores sint eveniet corporis, nostrum et cumque reiciendis libero ipsam nihil ratione sunt recusandae ab iste nisi, pariatur temporibus dolorem ut iusto aliquid quod alias labore! Corrupti, esse nam",
                 "color": [
-                    "#ffb86a"
+                    "orange-#ffb86a"
                 ],
                 "size": [
                     "M",

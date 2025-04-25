@@ -14,7 +14,7 @@ const showcase_item = (title, item) => {
               ) => `<a href="/details.html?p=${i.id}" class="flex justify-start items-center  space-x-4">
               <img src="${i.image[0]}" width="100" alt="">
               <div id="details-showcase" class="space-y-2 overflow-hidden">
-                <p class="capitalize text-normal-size-size whitespace-nowrap overflow-hidden  text-ellipsis">${i.name}</p>
+                <p class="capitalize text-normal-size-size whitespace-nowrap overflow-hidden text-ellipsis">${i.name}</p>
                 <div class="flex space-x-2">
                   <span class="text-first font-600">$${i.price}</span>
                   <del class="text-text-light font-500">$240</del>

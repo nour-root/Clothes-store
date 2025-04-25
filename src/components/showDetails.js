@@ -42,7 +42,12 @@ let showDetails = (product, quantity, wishItem) => {
                         ${product.color
                           .map(
                             (x, i) =>
-                              `<li style="background-color: ${x}" data-color="${x}" id="index-c-${i}" onclick="get_color(${i},${
+                              `<li style="background-color: ${x
+                                .split("-")
+                                .splice(
+                                  1,
+                                  1
+                                )}" data-color="${x}" id="index-c-${i}" onclick="get_color(${i},${
                                 product.id
                               })" class="w-10 h-10 ${
                                 i === 0 ? "color-option" : ""
