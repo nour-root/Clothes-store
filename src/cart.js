@@ -92,9 +92,15 @@ let update = (id) => {
   let item = OrdersCart.find((x) => x.id === id);
   get_data_from_products().then((data) => {
     let search = data.find((x) => x.id === id);
-    document.getElementById(`subtotal-p-${id}`).innerHTML =
-      `$` +
-      (search.price > 100 ? search.price - 0.3 : search.price) * item.quantity;
+    if (!item.quantity) {
+      document.getElementById(`subtotal-p-${id}`).innerHTML =
+        `$` + (search.price > 100 ? search.price - 0.3 : search.price) * 1;
+    } else {
+      document.getElementById(`subtotal-p-${id}`).innerHTML =
+        `$` +
+        (search.price > 100 ? search.price - 0.3 : search.price) *
+          item.quantity;
+    }
   });
   document.getElementById(`q-${id}`).innerHTML = item.quantity;
 };
