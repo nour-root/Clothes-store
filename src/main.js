@@ -1,8 +1,4 @@
 import EmblaCarousel from "embla-carousel";
-import Swiper from "swiper/bundle";
-import "swiper/css/bundle";
-import "swiper/css";
-import "./style.css";
 import { addPrevNextBtnsClickHandlers } from "./components/EmblaCarouselArrowButton";
 import {
   get_data_from_category,
